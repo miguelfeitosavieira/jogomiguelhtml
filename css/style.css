@@ -1,0 +1,12 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+}
+
+.CaixaDeTexto {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    align-items: center;
+    display: contents;
+    display: flex;
+}
