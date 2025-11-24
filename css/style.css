@@ -1,12 +1,29 @@
-* {
-    font-family: Arial, Helvetica, sans-serif;
+.TelaPrincipal {
     display: flex;
+    background-color: black;
 }
 
 .CaixaDeTexto {
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    align-items: center;
-    display: contents;
     display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    align-items: center;
+    justify-content: center;
+    margin-left: 42%;
+    margin-top: 20%;
+}
+
+.TamanhoDaCaixa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    width: 250px;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
