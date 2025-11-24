@@ -1,7 +1,14 @@
 // script.js
 document.addEventListener("DOMContentLoaded", () => {
     const input = document.querySelector(".TamanhoDaCaixa input");
-    let texto = input.value + "   "; // adiciona espaços para suavizar a transição
+
+    // ✅ Se quiser sem espaços extras, basta deixar só input.value
+    // let texto = input.value; 
+    // ✅ Se quiser apenas um espaço de pausa:
+    // let texto = input.value + " ";
+    // ✅ Se quiser mais pausa, mantenha os três espaços:
+    let texto = input.value + "   "; 
+
     let posicao = 0;
 
     function moverTexto() {
@@ -13,4 +20,3 @@ document.addEventListener("DOMContentLoaded", () => {
     // atualiza a cada 200ms (pode ajustar a velocidade)
     setInterval(moverTexto, 200);
 });
-    
