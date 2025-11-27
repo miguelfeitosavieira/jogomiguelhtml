@@ -1,0 +1,29 @@
+.TelaPrincipal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* ocupa toda a tela */
+    background-color: black;
+}
+
+.CaixaDeTexto {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    justify-content: center;
+    align-items: center;
+}
+
+.TamanhoDaCaixa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    width: 250px;
+    height: 100px;
+    background-color: white;
+    text-align: center; /* centraliza o texto dentro do input */
+    font-size: 16px;
+}
